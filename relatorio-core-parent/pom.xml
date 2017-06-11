@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>relatorio-core-parent</artifactId>
+	<packaging>pom</packaging>
+	<name>Gestao Relatorio Core Input</name>
+	<description>Projeto Core do Input</description>
+
+	<parent>
+		<groupId>br.com.syshealth.gestao.relatorio</groupId>
+		<artifactId>gestao-relatorio-parent</artifactId>
+		<version>1.0.0.RELEASE</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<modules>
+		<module>relatorio-core-port-commons</module>
+		<module>relatorio-core-port-inbound</module>
+		<module>relatorio-core-port-outbound</module>
+		<module>relatorio-core-application</module>
+	</modules>
+</project>
